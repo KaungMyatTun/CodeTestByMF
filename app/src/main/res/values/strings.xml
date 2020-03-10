@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CodeTestByMF</string>
+    <string name="id">ID :</string>
+    <string name="id_text">ID</string>
+    <string name="name">Name :</string>
+    <string name="name_text">Name Text</string>
+    <string name="created_at">Created_at :</string>
+    <string name="created_at_text">Created_at_Text</string>
+    <string name="updated_at">Updated_at :</string>
+    <string name="update_at">Update_at</string>
+    <string name="major_flag">Major Flag :</string>
+    <string name="major_flag_text">Major Flag</string>
+</resources>
