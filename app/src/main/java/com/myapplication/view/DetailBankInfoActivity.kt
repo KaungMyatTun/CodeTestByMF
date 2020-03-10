@@ -3,8 +3,8 @@ package com.myapplication.view
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.myapplication.R
-import com.myapplication.baseApiUrl
 import com.myapplication.model.BankItem
+import com.myapplication.networking.baseApiUrl
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.item_bank_detail_list.*
 
@@ -17,7 +17,6 @@ class DetailBankInfoActivity : AppCompatActivity(){
     }
 
     private fun initialize(){
-        var bundle : Bundle ?= intent.extras
         var bankItem = intent.extras!!.get("bank_info") as BankItem
 
         Picasso.get().load(baseApiUrl() + bankItem.logoUrl).into(Image)

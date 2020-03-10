@@ -13,6 +13,4 @@ fun showToast(context: Context, strError: String, length: Int = Toast.LENGTH_SHO
     Toast.makeText(context, strError, length).show()
 }
 
-fun baseApiUrl(): String {
-    return "https://dev.meemee.online/"
-}
+

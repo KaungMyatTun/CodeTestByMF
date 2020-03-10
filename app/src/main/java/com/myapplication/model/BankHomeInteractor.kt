@@ -5,7 +5,7 @@ import com.androidnetworking.AndroidNetworking
 import com.androidnetworking.common.Priority
 import com.androidnetworking.error.ANError
 import com.androidnetworking.interfaces.ParsedRequestListener
-import com.myapplication.baseApiUrl
+import com.myapplication.networking.baseApiUrl
 
 class BankHomeInteractor {
     companion object{

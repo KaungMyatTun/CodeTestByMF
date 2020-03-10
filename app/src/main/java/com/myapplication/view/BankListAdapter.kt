@@ -5,9 +5,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.myapplication.R
-import com.myapplication.baseApiUrl
 import com.myapplication.inflate
 import com.myapplication.model.BankItem
+import com.myapplication.networking.baseApiUrl
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.item_bank_list_recycler.view.*
 
